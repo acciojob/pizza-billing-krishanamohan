@@ -31,7 +31,7 @@ public class Pizza {
         this.ischeeseAdd=false;
         this.istoppingAdd=false;
 
-        this.bill="Base Price Of The Pizza: "+this.price+"\n";
+        this.bill="Base Price Of The Pizza:"+this.price+"\n";
 
     }
 
@@ -75,15 +75,15 @@ public class Pizza {
         if(isbillGenerate==false){
 
             if(ischeeseAdd==true){
-                this.bill=this.bill+"Extra Cheese Added: "+this.chesePrise+"\n";
+                this.bill=this.bill+"Extra Cheese Added:"+this.chesePrise+"\n";
             }
             if(istoppingAdd==true){
-                this.bill=this.bill+"Extra Toppings Added: "+this.tappingPrise+"\n";
+                this.bill=this.bill+"Extra Toppings Added:"+this.tappingPrise+"\n";
             }
             if(istakeway==true){
-                this.bill=this.bill+"Paperbag Added: "+this.takewayPrise+"\n";
+                this.bill=this.bill+"Paperbag Added:"+this.takewayPrise+"\n";
             }
-            this.bill=this.bill+"Total Price: "+this.price+"\n";
+            this.bill=this.bill+"Total Price:"+this.price+"\n";
             isbillGenerate=true;
         }
 
