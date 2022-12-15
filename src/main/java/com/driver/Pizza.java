@@ -53,7 +53,7 @@ public class Pizza {
         // your code goes here
         if(istoppingAdd==false){
             this.price=this.price+this.tappingPrise;
-            istoppingAdd=false;
+            istoppingAdd=true;
         }
     }
 
@@ -61,7 +61,7 @@ public class Pizza {
         // your code goes here
         if(istakeway==false){
             this.price=this.price+this.takewayPrise;
-            istakeway=false;
+            istakeway=true;
         }
     }
 
