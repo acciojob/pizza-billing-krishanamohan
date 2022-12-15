@@ -72,7 +72,8 @@ public class Pizza {
 //        Extra Toppings Added: 70
 //        Paperbag Added: 20
 //        Total Price: 470
-        if(isbillGenerate=false){
+        if(isbillGenerate==false){
+
             if(ischeeseAdd==true){
                 this.bill=this.bill+"Extra Cheese Added: "+this.chesePrise+"\n";
             }
