@@ -34,7 +34,6 @@ public class Pizza {
     }
 
     public int getPrice(){
-
         return this.price;
     }
 
@@ -69,6 +68,7 @@ public class Pizza {
         if(isBillGenerated==false)
         {
             isBillGenerated=true;
+
 
             if(isCheeseAdded==true)
             {
