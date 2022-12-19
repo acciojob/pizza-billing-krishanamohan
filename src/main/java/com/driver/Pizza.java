@@ -8,13 +8,12 @@ public class Pizza {
     private int ExtraToppingsPrice;
     private int TakeAwayPrice = 20 ;
     private String bill;
-
     private boolean isCheeseAdded;
     private boolean isToppingsAdded;
     private boolean isTakeaway;
     private boolean isBillGenerated;
-
     public Pizza(Boolean isVeg){
+
         this.isVeg = isVeg;
         isCheeseAdded=false;
         isToppingsAdded=false;
